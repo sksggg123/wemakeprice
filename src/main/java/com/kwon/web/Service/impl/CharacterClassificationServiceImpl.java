@@ -1,7 +1,7 @@
 package com.kwon.web.Service.impl;
 
 import com.kwon.web.Service.CharacterClassificationService;
-import com.kwon.web.VO.CharacterList;
+import com.kwon.web.model.CharacterList;
 import com.kwon.web.VO.ResponseVO;
 
 /**

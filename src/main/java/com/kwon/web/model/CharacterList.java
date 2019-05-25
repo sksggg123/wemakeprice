@@ -1,4 +1,4 @@
-package com.kwon.web.VO;
+package com.kwon.web.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -109,6 +109,7 @@ public class CharacterList {
                 break;
             }
 
+            // 확인용 삭제예정
             System.out.println("Flag : " + targetFlag
                     + " | Digit: " + sizeOfDigitList()
                     + " | Lower: " + sizeOfLowerList()

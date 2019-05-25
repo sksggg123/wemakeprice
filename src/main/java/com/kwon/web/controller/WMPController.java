@@ -52,7 +52,6 @@ public class WMPController {
             content = urlParsing.doUrlParsingFromText(url);
         }
 
-
         ResponseVO resVO = characterClassification.getQuotientAndRemainder(content, Integer.parseInt(num));
 
         model.addAttribute("content", resVO);

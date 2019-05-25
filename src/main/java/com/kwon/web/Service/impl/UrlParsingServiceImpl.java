@@ -22,6 +22,7 @@ import org.jsoup.nodes.Document;
  */
 public class UrlParsingServiceImpl implements UrlParsingService {
 
+    // html type method
     public String doUrlParsingFromHtml(String url) throws IOException{
 
         url = protocolInputCheck(url);
@@ -30,6 +31,7 @@ public class UrlParsingServiceImpl implements UrlParsingService {
         return htmlReplace;
     }
 
+    // text type method
     public String doUrlParsingFromText(String url) throws IOException {
 
         url = protocolInputCheck(url);
@@ -39,6 +41,7 @@ public class UrlParsingServiceImpl implements UrlParsingService {
         return textReplace;
     }
 
+    // http, https 입력여부 체크
     private String protocolInputCheck(String url) {
         if(!url.startsWith("http://")
                 && !url.startsWith("https://")) {
@@ -69,6 +72,7 @@ public class UrlParsingServiceImpl implements UrlParsingService {
         return returnValue;
     }
 
+    // 문자추출
     private String getReplace(String html) {
         String reg = "\\W";
         String str = html.replaceAll(reg, "");
