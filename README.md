@@ -38,4 +38,4 @@
 6. swith를 통한 Upper, Lower, Digit를 ENUM을 활용해서 구조화 해보기.
 7. Test코드 작성법 공부해서 적용해보기.
 8. Front 영역과 Back 영역 RESTful API형태로 변경해보기.
-
+9. README.md 작성 시 프로그램 동작과정도 기술하는 편이 좋음.
